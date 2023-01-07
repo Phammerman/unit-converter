@@ -1,3 +1,8 @@
+::placeholder {
+    color:#ffffff;
+    opacity: 1;
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -19,6 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 #input-number {
@@ -34,8 +40,23 @@ body {
 }
 
 #headline {
+    margin: 33px 50px;
     font-weight: 800;
     font-size: 28px;
     line-height: 38px;
+
 }
 
+#convert-btn {
+    margin-top: 25px;
+    margin-bottom: 33px;
+    font-size: 16px;
+    padding: 9px 27px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.convert-container {
+    background: #F4F4F4;
+}
