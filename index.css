@@ -1,3 +1,41 @@
 body {
     margin: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.main-container {
+    border: 1px solid red;
+    max-width: 550px;
+    max-height: 750px;
+}
+
+.input-container {
+    color: #ffffff;
+    background: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-number {
+    height: 85px;
+    width: 115px;
+    background: none;
+    border: 2px solid #B295FF;
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 54px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#headline {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+}
+
