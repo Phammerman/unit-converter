@@ -13,7 +13,7 @@ body {
 }
 
 .main-container {
-    border: 1px solid red;
+    border: 2px solid rgba(0, 0, 0, 0.729);
     max-width: 550px;
     max-height: 750px;
 }
@@ -62,6 +62,23 @@ body {
     background-color: #fff3b0;
 }
 
-.convert-container {
+.container {
     background: #F4F4F4;
+    padding: 10px 0;
+}
+
+.convert-container {
+    background: #ffffff;
+    color: #353535;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px 0;
+    font-size: 14px;
+}   
+
+.convert-heading {
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+
 }
