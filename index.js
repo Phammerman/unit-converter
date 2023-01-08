@@ -1,8 +1,8 @@
 
 
 const convertBtn = document.getElementById("convert-btn")
-let inputEl = document.getElementById("input-el")
-console.log(inputEl)
+const inputEl = document.getElementById("input-el")
+
 
 const lenghtEl = document.getElementById("lenght-el")
 const volumeEl = document.getElementById("volume-el")
